@@ -5,7 +5,7 @@ active = true
 date = "2019-11-18"
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-title = "People"
+title = "Lab Members"
 subtitle = "We are always looking for prospective PhD students and postdocs to join our lab! If you're interested in joining us, please send an email to zhenjiang.xu@gmail.com"
 
 # Order that this section will appear in.
