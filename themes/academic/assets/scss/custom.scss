@@ -1,1 +1,50 @@
 // Override this file to add your own SCSS styling.
+/*************************************************
+ *  Member widget
+ **************************************************/
+
+.people-container{
+  /* width: 100%; */
+  max-height: 500px;
+}
+
+.people-image{
+  width: 30%;
+  float: left;
+  /* padding-right: 50px; */
+  /* margin-right: 10px; */
+}
+
+.people-description{
+  width: 65%;
+  float: left;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.social-links{
+  text-align: justify;
+  margin-top: 2pt;
+  /* margin-bottom: 0; */
+}
+
+.stretch {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  /* margin-bottom: 0;
+  padding-bottom: 0; */
+}
+
+.big-icon {
+  /* font-size: 1.2rem; */
+  font-size: calc(10px + 1vw);
+  /* font-size: 3vw; */
+}
+
+.big-icon:hover {
+  transform: scale(1.2);
+}
+
+.spacer { clear: both; }
