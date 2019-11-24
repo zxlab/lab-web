@@ -6,7 +6,7 @@
 {{ $show_social := $page.Params.design.show_social | default false }}
 {{ $show_interests := $page.Params.design.show_interests | default true }}
 
-<div class="row justify-content-center people-widget">
+<div class="row people-widget">
   {{ with $page.Title }}
   <div class="col-md-12 section-heading">
     <h1>{{ . | markdownify | emojify }}</h1>
