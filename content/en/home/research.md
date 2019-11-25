@@ -1,7 +1,5 @@
 +++
-# A Demo section created with the Blank widget.
 # Any elements can be added in the body: https://sourcethemes.com/academic/docs/writing-markdown-latex/
-# Add more sections by duplicating this file and customizing to your requirements.
 
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
@@ -50,10 +48,12 @@ subtitle = ""
  css_class = ""
 +++
 
-Welcome to the **personal demo** of Academic. Other demos available include:
+Welcome to the Xu lab. Our research focuses on microbiome and host interaction. We apply bioinformatics, microbiology, and animal model to understand how microbiome can be precisely engineered to modulate host phenotypes. Specifically, we are working on the following areas:
 
-- [**Project Demo** (Academic's actual site)](https://sourcethemes.com/academic/)
+**microbiome bioinformatics:** Microbiome data have some idiosyncratic properties (eg sparse and compositional) and require careful treatment. We have been developping scalable and robust bioinformatic tools to mine multi-omic data and discover patterns and knowledge out of them. We are part of the QIIME2 development team and involved in developping multiple tools including scikit-bio, deblur, and calour. These are successfully applied to microbiome studies.
 
-**Over 100,000 [Amazing Websites](https://sourcethemes.com/academic/#expo) have Already Been Built with Academic**
+**genomics:** We have developped algorithms to identify novel regulatory ncRNAs and predict their secondary structures. With the ever-increasing microbial genomes available from whole-genomic and metagenomic shotgun sequencing data, there is a bottleneck to understand the function potential of these genomes. We are using deep learning techniques to develop high-quality, consistent annotations for comparative genomics.
 
-**[Join](https://sourcethemes.com/academic/docs/install/) the Most Empowered Hugo Community**
+**zebrafish mode:** We are using zebrafish as a model to study microbiome & host interaction because of the advantages of zebrafish model, including low cost, scalability, genetic tractability, transparency for imaging, and the available system to analyze complex social behaviors.
+
+We are looking for prospective students and faculty to join us on this exciting research field.
