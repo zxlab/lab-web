@@ -1,1 +1,3 @@
+* install academic-admin
+sudo -E conda install academic
 academic import --bibtex /tmp/Exported\ Items.bib --publication-dir en/publication --overwrite

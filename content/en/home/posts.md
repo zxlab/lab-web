@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 120  # Order that this section will appear.
 
 title = "Recent Posts"
-subtitle = ""
+subtitle = "news, thoughts, guides, tutorials"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.

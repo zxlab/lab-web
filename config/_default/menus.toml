@@ -30,7 +30,7 @@
 
 [[main]]
   name = "Activities"
-  url = "#photos"
+  url = "#slider"
   weight = 50
 
 [[main]]
