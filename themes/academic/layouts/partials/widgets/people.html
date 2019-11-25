@@ -8,7 +8,7 @@
 
 <div class="row people-widget">
   {{ with $page.Title }}
-  <div class="col-md-12 section-heading">
+  <div class="col-12 col-lg-4 section-heading">
     <h1>{{ . | markdownify | emojify }}</h1>
     {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
   </div>
