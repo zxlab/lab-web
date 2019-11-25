@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 68  # Order that this section will appear.
 
 title = "Meet the Team"
-subtitle = ""
+subtitle = "We are always seeking students and postdocs to join the lab! If you work on related research and want to collaborate, please feel free to contact me too!"
 
 [content]
   # Choose which groups/teams of users to display.

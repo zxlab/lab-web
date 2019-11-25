@@ -45,7 +45,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:zhenjiang.xu@gmail.com"  # '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/zech_xu
@@ -71,4 +71,4 @@ user_groups:
 
 ---
 
-Zhenjiang Zech Xu, a research group leader at State Key Lab of Food Science and Technology at Nanchang University. He did PhD thesis on ncRNA secondary structure prediction with Professor David Mathews at University of Rochester. Afterwards, Zech did postdoctoral training with Professor Rob Knight at University of California San Diego. In 2018, he moved back to China and joined the faculty of Nanchang University in 2018. Zech has been developing bioinformatic tools and applying them to microbiome research. He has published over 50 papers in peer reviewed journals.
+Zhenjiang Zech Xu, a research group leader at State Key Lab of Food Science and Technology at Nanchang University. He did PhD thesis on ncRNA secondary structure prediction with Professor David Mathews at University of Rochester. Afterwards, he did postdoctoral training with Professor Rob Knight at University of California San Diego. He has published over 50 peer-reviewed articles in peer reviewed journals and has been developing bioinformatic tools and applying them to microbiome research. He moved back to China and joined the faculty of Nanchang University in 2018.
