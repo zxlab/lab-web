@@ -7,7 +7,6 @@ publication_types: ["2"]
 abstract: "textlessptextgreaterPredicting nitrous oxide emissions (N$_textrm2$O) remains difficult due to the numerous N$_textrm2$O production pathways. Here, the authors use incubations simulating high nitrate inputs to show that, in intertidal sediments, increases in N$_textrm2$O flux are large&hellip;textless/ptextgreater"
 featured: false
 publication: "*Nature Communications*"
-tags: ["#nosource"]
 url_pdf: "https://www.nature.com/articles/ncomms15595"
 doi: "10.1038/ncomms15595"
 ---
