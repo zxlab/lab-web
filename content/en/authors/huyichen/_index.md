@@ -27,9 +27,6 @@ interests:
 
 education:
   courses:
-  - course: PhD in Nutrition and Food Hygiene
-    institution: Nanchang University
-    year: Now
   - course: MSc in Biochemistry and Molecular Biology
     institution: Nanchang University
     year: 2016
@@ -44,7 +41,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: hychennnn@gmail.com
+  link: "mailto:hychennnn@gmail.com"
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/zech_xu
