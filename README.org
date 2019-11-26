@@ -1,3 +1,72 @@
-* install academic-admin
-sudo -E conda install academic
-academic import --bibtex /tmp/Exported\ Items.bib --publication-dir en/publication --overwrite
+#+TITLE: the website for the Xu Lab
+
+[[https://app.netlify.com/sites/xulab/deploys][https://api.netlify.com/api/v1/badges/e900f35c-ace1-4227-8b26-4149444fdbba/deploy-status.png]]
+
+It uses hugo and hugo academic theme to build the website.
+
+* directory structure
+#+BEGIN_EXAMPLE
+├── academic.Rproj
+├── config
+│   └── _default
+│       ├── config.toml
+│       ├── languages.toml
+│       ├── menus.toml
+│       └── params.toml
+├── config.toml
+├── content
+│   ├── en
+│   │   ├── authors
+│   │   ├── home
+│   │   ├── post
+│   │   ├── privacy.md
+│   │   ├── publication
+│   │   ├── talk
+│   │   └── terms.md
+│   └── zh
+│       ├── authors
+│       ├── home
+│       ├── post
+│       ├── privacy.md
+│       ├── publication
+│       ├── resources
+│       ├── talk
+│       └── terms.md
+├── data
+│   ├── fonts
+│   ├── page_sharer.toml
+│   └── themes
+├── LICENSE.md
+├── netlify.toml
+├── README.org
+├── resources
+│   └── _gen
+│       ├── assets
+│       └── images
+├── static
+│   └── img
+├── themes
+│   └── academic
+│       ├── academic.png
+│       ├── archetypes
+│       ├── assets
+│       ├── data
+│       ├── i18n
+│       ├── images
+│       ├── layouts
+│       ├── LICENSE.md
+│       ├── netlify.toml
+│       ├── package.json
+│       ├── package-lock.json
+│       ├── README.md
+│       ├── scripts
+│       ├── static
+│       └── theme.toml
+├── update_academic.sh
+└── view.sh
+#+END_EXAMPLE
+* automatically create bibliography for publications
+#+BEGIN_SRC sh
+sudo -E conda install academic # install academic-admin
+academic import --bibtex /tmp/Exported\ Items.bib --publication-dir en/publication
+#+END_SRC
