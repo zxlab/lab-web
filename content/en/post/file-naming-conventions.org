@@ -1,5 +1,5 @@
 #+TITLE: file naming and organizing conventions
-#+DATE: 2018-11-11
+#+LASTMOD: 2018-11-11
 #+TAGS[]: guide
 
 #+BEGIN_QUOTE

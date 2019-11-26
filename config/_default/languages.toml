@@ -11,10 +11,34 @@
 [zh]
  languageCode = "zh-Hans"
  contentDir = "content/zh"
- title = "Chinese website title..."
+ title = "徐振江实验室"
  [zh.params]
-   description = "Site description in Chinese..."
+   description = "徐振江实验室"
  [[zh.menu.main]]
-   name = "Wo"
-   url = "#about"
+   name = "首页"
+   url = "#research"
    weight = 1
+ [[zh.menu.main]]
+  name = "成员"
+  url = "#people"
+  weight = 30
+
+ [[zh.menu.main]]
+  name = "论文"
+  url = "#publications"
+  weight = 40
+
+ [[zh.menu.main]]
+  name = "博客"
+  url = "#posts"
+  weight = 45
+
+ [[zh.menu.main]]
+  name = "活动"
+  url = "#slider"
+  weight = 50
+
+ [[zh.menu.main]]
+  name = "联系我们"
+  url = "#contact"
+  weight = 60

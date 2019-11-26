@@ -4,7 +4,8 @@ subtitle:
 summary:
 tags: ['publication', 'software']
 categories: []
-lastmod: "2019-02-05T00:00:00Z"
+date: "2019-02-05T00:00:00Z"
+lastmod: "2019-02-05"
 featured: false
 draft: false
 ---

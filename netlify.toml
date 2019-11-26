@@ -4,7 +4,7 @@
 
 [build.environment]
   HUGO_VERSION = "0.58.3"
-  HUGO_ENABLEGITINFO = "true"
+  HUGO_ENABLEGITINFO = "true" # set to true if you want to get the timestamp from the date when the files is modified
 
 [context.production.environment]
   HUGO_ENV = "production"
