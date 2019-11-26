@@ -1,0 +1,27 @@
+#+TITLE: file naming and organizing conventions
+#+DATE: 2018-11-11
+#+TAGS[]: guide
+
+#+BEGIN_QUOTE
+There are only two hard things in Computer Science: cache invalidation and naming things --- Phil Karlton
+#+END_QUOTE
+
+Naming things is important. To avoid headache in the future and to be consistent inside the lab, we follow the set of rules below to name and organize files. I use `file` and `directory` interchangeably (unless the difference is obvious in the context) because `directory` is just a special file.
+
+* principles
+  1. be intuitive. You should be able to recognize or guess what a file is about a year later, by merely looking the file name.
+  2. avoid redundancy. It is bad to have every file in a directory contain the same string; instead, use the string as part of the directory name.
+  3. use the time stamp as part of the directory name if it is time sensitive
+* specifications
+  1. use only alphanumeric characters, DOT, HYPHEN, and UNDERSCORE in the file name
+  2. never use SPACE or other special characters in anywhere of the file name
+  3. use DOT between file name and file suffix
+  4. use HYPHEN (preferred, or use UNDERSCORE) between words in a phrase
+  5. use double HYPHENs (or UNDERSCORES)
+  6. use lower case by default for all file name unless:
+     1) UPPERCASE: acronyms, abbreviations, critical files
+     2) Capitalize Each Word: person names, country names, etc.
+  7. use "v" + number to indicate the versions of the file. For example, =research-proposal.v1.doc=. The file name prefix should be always the same - the only changing part is the version number. The first version is always =v1=.
+  8. When using a sequential numbering system, use leading zeros for clarity so that files can be sorted in sequential order. For example, use "001, 002, ...010, 011 ... 100, 101." instead of "1, 2, ...10, 11 ... 100, 101, etc.". And use 1-based (instead of 0-based) numbering
+  9. use digit format YYYYMMDDHHMMSS for time; the right part can be omitted if you don't need to be precise on time; use HYPHEN to join 2 time points for time intervals.
+  10. The above rules do NOT apply to files of source code. For example, you can't use hyphen in a python module script, because "import foo-1" is syntactically wrong.
