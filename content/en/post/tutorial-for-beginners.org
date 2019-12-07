@@ -1,0 +1,149 @@
+#+TITLE: tutorial for beginners
+#+LASTMOD: 2019-12-07
+#+TAGS[]: tutorials
+
+
+* linux
+** 推荐书籍
+   1. [[http://linuxcommand.org/tlcl.php][“The Linux Command Line” by William Shotts]]
+   2. “Learn Linux the Hardway” by Shaw
+   3. [[http://cn.linux.vbird.org/][中文教程推荐《鸟哥的Linux私房菜》]]
+   快速浏览，熟悉命令行。大概记住常用命令的使用，实际使用时需知道可以使用哪个命令以及如何查找帮助文档。
+** command lines
+   - job control: nohup将命令放到后台运行，&将命令放到background中运行，这样可以空出terminal同时运行其他的命令。
+
+* python
+** 推荐书籍
+   1. “Python Cookbook(3rd Edition)” by O'Reilly 不太适合初学者
+   2. “Python Crash Course” 适合初学者，但内容略简单
+   3. “Learning Python, 5th Edition” by Mark Lutz 比较适合系统学习（推荐）
+   4. “Fluent Python” 进阶学习
+   5. [[https://github.com/jackfrued/Python-100-Days][Python 100 days]]
+   达到能写class的程度
+   6. [[https://nedbatchelder.com/text/test0.html][Getting started testing]]
+
+* [[https://qiime2.org/][qiime2]]
+  详细内容请自行浏览qiime2网站，以下为一些经验建议：
+  1. 安装：如在windows系统下，建议先安装虚拟机，在虚拟机上装linux系统，再安装qiime2。注意是qiime2，不是qiime。
+  2. tutorials：重点熟悉“Moving Pictures”，搞清楚每一步是做什么，得到的文件又是什么意思。
+  3. 查看命令：第一次跑tutorial时，通过command --help查看命令每个参数的意思。
+  4. 在jupter notebook中，也可运行qiime2 command lines（https://docs.qiime2.org/2019.10/interfaces/artifact-api/）。
+
+** Moving pictures tutorial
+   1. metadata/mapping file
+      - metadata记录原始数据，样本信息等，metadata需为tsv格式。
+      - metadata第一列名应为sampleid，注意sampleid列中的样本名不可以含有下划线（deblur DOESN'T support smaple IDs with underscores, including the sample IDs in your metadata and sequence files，or your manifest file。
+      - metadata的要求请参照[[https://docs.qiime2.org/2019.10/tutorials/metadata/][Metadata in QIIME 2]]
+   2. sequence files
+      - 序列文件通常为fastq/fna格式，less可查看，gz文件用zless查看。
+      - 序列文件是已经去掉了barcode/primer/adaptor的clean data。
+      - demux后的序列文件通过提供manifest来导入，注意不同日期批次的qiime2在menifast格式上可能存在区别，所以一定要确认你正在使用的qiime2的版本，如2019.4。
+      - 注意:所有的序列都应该测的是同一段区域（起点相同），序列之间才具有可比性，否则序列比对是没有意义的。
+   3. barcode files
+      - barcode是在测序之前连接到每条序列前端的一小段DNA碱基序列，作为标签，用来区别该序列来自于哪个样本，类似于商品的条形码。同一个样本用同一个barcode标记，根据barcode就可以知道该序列属于哪个样本。
+   4. demultiplex
+      - 根据barcode信息，判断sequence是来自哪个样本，从而得到每个样本含有哪些序列，有多少序列。
+      - 如为反向互补序列，demux时选择参数--p-rev-comp-mapping-barcodes。
+   5. quality control    
+      - 推荐deblur
+      - [[http://msystems.asm.org/content/2/2/e00191-16][deblur]]是对单个样本进行分析，所以适合整合大量的数据。
+      - 如果input是paired end sequence data，在deblur时实际上只会用到正向序列，而不会用到反向序列。如有需要用到反向序列，可[[https://docs.qiime2.org/2019.4/tutorials/read-joining/][join reads]]。
+      - qiime deblur denoise-16S 需要注意的参数：
+        (a) --p-no-hashed-feature-ids 即保留原始序列（ATGC格式）。
+        (b) --p-min-reads
+        (c) 查看deblur.qzv：理论上deblur之后剩下的序列数为(1-error rate)**trim length（其中error rate=0.005）；以100个碱基长度为例，deblur之后剩下的序列>(1-0.005)**100才比较正常 
+   6. generate a tree
+      - 还有一种建树的方法是fragment insertion sepp
+   7. diversity analysis
+      - 参数--p-sample-depth的选择，可参考rarefaction curve，选择曲线上升到平台期为宜。
+      - diversity的分析前，不要忘记对table做rarefy！rarefaction的意义在于，当抽样深度不同时，rarefaction使不同测序深度间变得有可比性。
+      - diversity:
+        (a) alpha diversity: how many kinds of microbes are there单个样本内含有多少微生物
+            - 可从以下几个方面比较：
+              richness 种类（例如2个样本，1号含100种微生物，2号含150种微生物，这里只考虑种类，不考虑数量）
+              evenness 均匀度（例如2个样本，1号含A3B3C3,2号A1B1C7，字母代表不同的otu，数字代表个数，那么这个例子中1号otu分布显然比2号更均匀）
+            - 常用计算alpha div的方法有：
+              observed_otus (richness) 只计算每个样本中otu的种类
+              evenness (evenness) 解释见上
+              shannon (richness + evenness) 既考虑种类又考虑均匀度
+              simpson (richness + evenness) 同上
+              faith's phylogenetic distance 除了还考虑种类和均匀度，还考虑进化距离
+              ……  
+        (b) beta diversity: similarity and dissimilarity between two different samples两个样本间的相似性或不同
+            - 常用计算beta div的方法有：
+              braycurtis
+              weighted unifrac
+              unweighted unifrac
+              ……  
+   8. taxonomy assignment
+      - 如果是515f-818r，可直接用已经train好的classfier进行taxonomy assignment；其他情况可用已经train好的全长的classifer，或根据primer来[[https://docs.qiime2.org/2019.4/tutorials/feature-classifier/][train classfier]]。train classifier时最重要的参数是提供测序用的primer。
+      - qiime feature-classifier classify-sklearn --p-read-orientation [reverse-complement|same]默认是自动检测前100个bases，然后判断是reverse还是same，一般默认参数就行。
+   9. ANCOM：得到差异表达的otu
+      - ancom默认进行比较的两组样本是相互独立的，且仅有少量的（少于25%）的feature在两组间发生了改变。如果有大量序列改变，则不适用。
+      - 另一种得到差异表达otu的方法是[[https://docs.qiime2.org/2019.4/tutorials/gneiss/][gneiss]]。
+
+** import data
+   - tsv, csv, txt文件可以转化成[[http://biom-format.org/documentation/biom_conversion.html][The Biological Observation Matrix (BIOM) format]]再导入。
+
+** emperor animation
+   - 在qiime2中打开emperor.qzv，右侧栏选择animation列，选择gradient（时间轴上的分组）和trajectory（样本的分组） category（它们的value必须是分类值，不能是数值）。
+
+** tips
+   + 查看tutorial时需注意当前版本，应与安装的版本相对应（tutorial页面最左有版本信息），否则有些代码时可能会出现报错。
+   + 命名不要有空格和中文，不要取模棱两可的名字，时间久了可能自己都不记得这个文件是什么。名字长一点都没关系。
+   + 原则上不产生重复文件，可创建hard/symbolic link。
+   + 碰到解决不了的问题可在forum上找是否有同样的问题，通常可以找到。或可以自己在上面提问。
+   + 做项目时，一个项目创建一个文件夹，与该项目相关的文件都保存在该目录下。
+   + 所有command line都要做好记录，要知道每一个文件是如何生成的，出现问题的时候能够追根溯源。同时，要记录好qiime2的版本信息。
+   + 重要的文本文件用git做version control。
+   + 图片保存格式为pdf或者svg（矢量图）。
+   + 不要轻易覆盖raw data
+
+* Data analysis
+** Data analysis
+   - 经过学习以上部分，有了基础概念之后，跟着这个[[https://github.com/cuttlefishh/python-for-data-analysis][网址]]进行数据分析课程的学习
+   - 参考用书“Python for Data Analysis”，涉及pandas，numpy，matplotlib，seaborn...
+
+** calour
+   - 熟悉tutorial
+   - 用calour filter data非常方便(filter_by_metadata, filter_prevalence...)
+   - 在Jupyterlab中无法放大查看热图，需launch classic notebook，%matplotlib notebook（不要用inline）
+
+** matplotlib/seaborn
+   - turorial： [[https://www.labri.fr/perso/nrougier/teaching/matplotlib/][matplotlib-tutorial]]
+   - [[https://matplotlib.org/gallery/misc/multipage_pdf.html][mutipage_pdf]] 同时保存多张图片为pdf格式
+
+** jupyter notebook/jupyterlab & ipython
+   - Don't forget we can look at what any function does by using %psource
+   - Don‘t hardcode。同一套代码写成function后调用。写function注意逻辑性。
+
+** git
+   - Github
+   https://guides.github.com/activities/hello-world/
+   https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson20.md
+   - Git command
+   https://www.youtube.com/watch?v=HVsySz-h9r4 （视频介绍）
+   - 重要的文件用git做version control，尤其是自己写的文本文件。了解简单的git add和commit等。
+
+* 推荐阅读
+** tips
+   + 看文献时，abstract->fig->discussion
+   + 看文献时也要了解作者，通过作者去了解别人实验室的研究方向，可以学习别人实验上的思路/实验设计/延续性等。
+   + 带着批判性思维阅读what?why?and how? 为什么要做这个实验，数据是否支持结论，统计方法是否正确，你接下来会怎么做等。
+   + 在自己研究方向上进行阅读，形成知识架构。什么是已知的，什么的未知的，提出问题，多思考如何解决问题。
+   + 文献汇报选择与自己研究直接相关的文章，有助于自己文献阅读的连续性。
+   + 实验汇报用1套PPT，每次在之前的基础上积累完善。包括背景介绍，提出问题，如何解决，用什么方法解决，结果，下阶段的计划安排。
+
+** 期刊
+   推荐阅读期刊：nature, science, cell, PNAS, nature communication, nature microbiology, microbiome, cell host & microbes, ISME journal, gut, Gastroenterology, Genome Research, mbio, msystems
+
+** 综述
+   微生物组学介绍：
+   Diversity, stability and resilience of the human gut microbiota
+   You are what you eat: diet, health and the gut microbiota
+   Beat practices for analysing microbimes
+  
+** 书籍
+   - “I contain multitudes” by Ed Yong
+   - 《消失的微生物》
+   - [[http://library.open.oregonstate.edu/computationalbiology/][A primer for computational biology]]
