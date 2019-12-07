@@ -1,149 +1,149 @@
-#+TITLE: tutorial for beginners
+#+TITLE: Guide for beginners to bioinformatics
 #+LASTMOD: 2019-12-07
+#+AUTHORS: Yichen Hu
 #+TAGS[]: tutorials
 
-
 * linux
-** ÍÆ¼öÊé¼®
-   1. [[http://linuxcommand.org/tlcl.php][¡°The Linux Command Line¡± by William Shotts]]
-   2. ¡°Learn Linux the Hardway¡± by Shaw
-   3. [[http://cn.linux.vbird.org/][ÖĞÎÄ½Ì³ÌÍÆ¼ö¡¶Äñ¸çµÄLinuxË½·¿²Ë¡·]]
-   ¿ìËÙä¯ÀÀ£¬ÊìÏ¤ÃüÁîĞĞ¡£´ó¸Å¼Ç×¡³£ÓÃÃüÁîµÄÊ¹ÓÃ£¬Êµ¼ÊÊ¹ÓÃÊ±ĞèÖªµÀ¿ÉÒÔÊ¹ÓÃÄÄ¸öÃüÁîÒÔ¼°ÈçºÎ²éÕÒ°ïÖúÎÄµµ¡£
+** æ¨èä¹¦ç±
+   1. [[http://linuxcommand.org/tlcl.php][â€œThe Linux Command Lineâ€ by William Shotts]]
+   2. â€œLearn Linux the Hardwayâ€ by Shaw
+   3. [[http://cn.linux.vbird.org/][ä¸­æ–‡æ•™ç¨‹æ¨èã€Šé¸Ÿå“¥çš„Linuxç§æˆ¿èœã€‹]]
+   å¿«é€Ÿæµè§ˆï¼Œç†Ÿæ‚‰å‘½ä»¤è¡Œã€‚å¤§æ¦‚è®°ä½å¸¸ç”¨å‘½ä»¤çš„ä½¿ç”¨ï¼Œå®é™…ä½¿ç”¨æ—¶éœ€çŸ¥é“å¯ä»¥ä½¿ç”¨å“ªä¸ªå‘½ä»¤ä»¥åŠå¦‚ä½•æŸ¥æ‰¾å¸®åŠ©æ–‡æ¡£ã€‚
 ** command lines
-   - job control: nohup½«ÃüÁî·Åµ½ºóÌ¨ÔËĞĞ£¬&½«ÃüÁî·Åµ½backgroundÖĞÔËĞĞ£¬ÕâÑù¿ÉÒÔ¿Õ³öterminalÍ¬Ê±ÔËĞĞÆäËûµÄÃüÁî¡£
+   - job control: nohupå°†å‘½ä»¤æ”¾åˆ°åå°è¿è¡Œï¼Œ&å°†å‘½ä»¤æ”¾åˆ°backgroundä¸­è¿è¡Œï¼Œè¿™æ ·å¯ä»¥ç©ºå‡ºterminalåŒæ—¶è¿è¡Œå…¶ä»–çš„å‘½ä»¤ã€‚
 
 * python
-** ÍÆ¼öÊé¼®
-   1. ¡°Python Cookbook(3rd Edition)¡± by O'Reilly ²»Ì«ÊÊºÏ³õÑ§Õß
-   2. ¡°Python Crash Course¡± ÊÊºÏ³õÑ§Õß£¬µ«ÄÚÈİÂÔ¼òµ¥
-   3. ¡°Learning Python, 5th Edition¡± by Mark Lutz ±È½ÏÊÊºÏÏµÍ³Ñ§Ï°£¨ÍÆ¼ö£©
-   4. ¡°Fluent Python¡± ½ø½×Ñ§Ï°
+** æ¨èä¹¦ç±
+   1. â€œPython Cookbook(3rd Edition)â€ by O'Reilly ä¸å¤ªé€‚åˆåˆå­¦è€…
+   2. â€œPython Crash Courseâ€ é€‚åˆåˆå­¦è€…ï¼Œä½†å†…å®¹ç•¥ç®€å•
+   3. â€œLearning Python, 5th Editionâ€ by Mark Lutz æ¯”è¾ƒé€‚åˆç³»ç»Ÿå­¦ä¹ ï¼ˆæ¨èï¼‰
+   4. â€œFluent Pythonâ€ è¿›é˜¶å­¦ä¹ 
    5. [[https://github.com/jackfrued/Python-100-Days][Python 100 days]]
-   ´ïµ½ÄÜĞ´classµÄ³Ì¶È
-   6. [[https://nedbatchelder.com/text/test0.html][Getting started testing]]
+   è¾¾åˆ°èƒ½å†™classçš„ç¨‹åº¦
+   6. unit test: [[https://nedbatchelder.com/text/test0.html][Getting started testing]]
 
 * [[https://qiime2.org/][qiime2]]
-  ÏêÏ¸ÄÚÈİÇë×ÔĞĞä¯ÀÀqiime2ÍøÕ¾£¬ÒÔÏÂÎªÒ»Ğ©¾­Ñé½¨Òé£º
-  1. °²×°£ºÈçÔÚwindowsÏµÍ³ÏÂ£¬½¨ÒéÏÈ°²×°ĞéÄâ»ú£¬ÔÚĞéÄâ»úÉÏ×°linuxÏµÍ³£¬ÔÙ°²×°qiime2¡£×¢ÒâÊÇqiime2£¬²»ÊÇqiime¡£
-  2. tutorials£ºÖØµãÊìÏ¤¡°Moving Pictures¡±£¬¸ãÇå³şÃ¿Ò»²½ÊÇ×öÊ²Ã´£¬µÃµ½µÄÎÄ¼şÓÖÊÇÊ²Ã´ÒâË¼¡£
-  3. ²é¿´ÃüÁî£ºµÚÒ»´ÎÅÜtutorialÊ±£¬Í¨¹ıcommand --help²é¿´ÃüÁîÃ¿¸ö²ÎÊıµÄÒâË¼¡£
-  4. ÔÚjupter notebookÖĞ£¬Ò²¿ÉÔËĞĞqiime2 command lines£¨https://docs.qiime2.org/2019.10/interfaces/artifact-api/£©¡£
+  è¯¦ç»†å†…å®¹è¯·è‡ªè¡Œæµè§ˆqiime2ç½‘ç«™ï¼Œä»¥ä¸‹ä¸ºä¸€äº›ç»éªŒå»ºè®®ï¼š
+  1. å®‰è£…ï¼šå¦‚åœ¨windowsç³»ç»Ÿä¸‹ï¼Œå»ºè®®å…ˆå®‰è£…è™šæ‹Ÿæœºï¼Œåœ¨è™šæ‹Ÿæœºä¸Šè£…linuxç³»ç»Ÿï¼Œå†å®‰è£…qiime2ã€‚æ³¨æ„æ˜¯qiime2ï¼Œä¸æ˜¯qiimeã€‚
+  2. tutorialsï¼šé‡ç‚¹ç†Ÿæ‚‰â€œMoving Picturesâ€ï¼Œææ¸…æ¥šæ¯ä¸€æ­¥æ˜¯åšä»€ä¹ˆï¼Œå¾—åˆ°çš„æ–‡ä»¶åˆæ˜¯ä»€ä¹ˆæ„æ€ã€‚
+  3. æŸ¥çœ‹å‘½ä»¤ï¼šç¬¬ä¸€æ¬¡è·‘tutorialæ—¶ï¼Œé€šè¿‡command --helpæŸ¥çœ‹å‘½ä»¤æ¯ä¸ªå‚æ•°çš„æ„æ€ã€‚
+  4. åœ¨jupter notebookä¸­ï¼Œä¹Ÿå¯è¿è¡Œqiime2 command linesï¼ˆhttps://docs.qiime2.org/2019.10/interfaces/artifact-api/ï¼‰ã€‚
 
 ** Moving pictures tutorial
    1. metadata/mapping file
-      - metadata¼ÇÂ¼Ô­Ê¼Êı¾İ£¬Ñù±¾ĞÅÏ¢µÈ£¬metadataĞèÎªtsv¸ñÊ½¡£
-      - metadataµÚÒ»ÁĞÃûÓ¦Îªsampleid£¬×¢ÒâsampleidÁĞÖĞµÄÑù±¾Ãû²»¿ÉÒÔº¬ÓĞÏÂ»®Ïß£¨deblur DOESN'T support smaple IDs with underscores, including the sample IDs in your metadata and sequence files£¬or your manifest file¡£
-      - metadataµÄÒªÇóÇë²ÎÕÕ[[https://docs.qiime2.org/2019.10/tutorials/metadata/][Metadata in QIIME 2]]
+      - metadataè®°å½•åŸå§‹æ•°æ®ï¼Œæ ·æœ¬ä¿¡æ¯ç­‰ï¼Œmetadataéœ€ä¸ºtsvæ ¼å¼ã€‚
+      - metadataç¬¬ä¸€åˆ—ååº”ä¸ºsampleidï¼Œæ³¨æ„sampleidåˆ—ä¸­çš„æ ·æœ¬åä¸å¯ä»¥å«æœ‰ä¸‹åˆ’çº¿ï¼ˆdeblur DOESN'T support smaple IDs with underscores, including the sample IDs in your metadata and sequence filesï¼Œor your manifest fileã€‚
+      - metadataçš„è¦æ±‚è¯·å‚ç…§[[https://docs.qiime2.org/2019.10/tutorials/metadata/][Metadata in QIIME 2]]
    2. sequence files
-      - ĞòÁĞÎÄ¼şÍ¨³£Îªfastq/fna¸ñÊ½£¬less¿É²é¿´£¬gzÎÄ¼şÓÃzless²é¿´¡£
-      - ĞòÁĞÎÄ¼şÊÇÒÑ¾­È¥µôÁËbarcode/primer/adaptorµÄclean data¡£
-      - demuxºóµÄĞòÁĞÎÄ¼şÍ¨¹ıÌá¹©manifestÀ´µ¼Èë£¬×¢Òâ²»Í¬ÈÕÆÚÅú´ÎµÄqiime2ÔÚmenifast¸ñÊ½ÉÏ¿ÉÄÜ´æÔÚÇø±ğ£¬ËùÒÔÒ»¶¨ÒªÈ·ÈÏÄãÕıÔÚÊ¹ÓÃµÄqiime2µÄ°æ±¾£¬Èç2019.4¡£
-      - ×¢Òâ:ËùÓĞµÄĞòÁĞ¶¼Ó¦¸Ã²âµÄÊÇÍ¬Ò»¶ÎÇøÓò£¨ÆğµãÏàÍ¬£©£¬ĞòÁĞÖ®¼ä²Å¾ßÓĞ¿É±ÈĞÔ£¬·ñÔòĞòÁĞ±È¶ÔÊÇÃ»ÓĞÒâÒåµÄ¡£
+      - åºåˆ—æ–‡ä»¶é€šå¸¸ä¸ºfastq/fnaæ ¼å¼ï¼Œlesså¯æŸ¥çœ‹ï¼Œgzæ–‡ä»¶ç”¨zlessæŸ¥çœ‹ã€‚
+      - åºåˆ—æ–‡ä»¶æ˜¯å·²ç»å»æ‰äº†barcode/primer/adaptorçš„clean dataã€‚
+      - demuxåçš„åºåˆ—æ–‡ä»¶é€šè¿‡æä¾›manifestæ¥å¯¼å…¥ï¼Œæ³¨æ„ä¸åŒæ—¥æœŸæ‰¹æ¬¡çš„qiime2åœ¨menifastæ ¼å¼ä¸Šå¯èƒ½å­˜åœ¨åŒºåˆ«ï¼Œæ‰€ä»¥ä¸€å®šè¦ç¡®è®¤ä½ æ­£åœ¨ä½¿ç”¨çš„qiime2çš„ç‰ˆæœ¬ï¼Œå¦‚2019.4ã€‚
+      - æ³¨æ„:æ‰€æœ‰çš„åºåˆ—éƒ½åº”è¯¥æµ‹çš„æ˜¯åŒä¸€æ®µåŒºåŸŸï¼ˆèµ·ç‚¹ç›¸åŒï¼‰ï¼Œåºåˆ—ä¹‹é—´æ‰å…·æœ‰å¯æ¯”æ€§ï¼Œå¦åˆ™åºåˆ—æ¯”å¯¹æ˜¯æ²¡æœ‰æ„ä¹‰çš„ã€‚
    3. barcode files
-      - barcodeÊÇÔÚ²âĞòÖ®Ç°Á¬½Óµ½Ã¿ÌõĞòÁĞÇ°¶ËµÄÒ»Ğ¡¶ÎDNA¼î»ùĞòÁĞ£¬×÷Îª±êÇ©£¬ÓÃÀ´Çø±ğ¸ÃĞòÁĞÀ´×ÔÓÚÄÄ¸öÑù±¾£¬ÀàËÆÓÚÉÌÆ·µÄÌõĞÎÂë¡£Í¬Ò»¸öÑù±¾ÓÃÍ¬Ò»¸öbarcode±ê¼Ç£¬¸ù¾İbarcode¾Í¿ÉÒÔÖªµÀ¸ÃĞòÁĞÊôÓÚÄÄ¸öÑù±¾¡£
+      - barcodeæ˜¯åœ¨æµ‹åºä¹‹å‰è¿æ¥åˆ°æ¯æ¡åºåˆ—å‰ç«¯çš„ä¸€å°æ®µDNAç¢±åŸºåºåˆ—ï¼Œä½œä¸ºæ ‡ç­¾ï¼Œç”¨æ¥åŒºåˆ«è¯¥åºåˆ—æ¥è‡ªäºå“ªä¸ªæ ·æœ¬ï¼Œç±»ä¼¼äºå•†å“çš„æ¡å½¢ç ã€‚åŒä¸€ä¸ªæ ·æœ¬ç”¨åŒä¸€ä¸ªbarcodeæ ‡è®°ï¼Œæ ¹æ®barcodeå°±å¯ä»¥çŸ¥é“è¯¥åºåˆ—å±äºå“ªä¸ªæ ·æœ¬ã€‚
    4. demultiplex
-      - ¸ù¾İbarcodeĞÅÏ¢£¬ÅĞ¶ÏsequenceÊÇÀ´×ÔÄÄ¸öÑù±¾£¬´Ó¶øµÃµ½Ã¿¸öÑù±¾º¬ÓĞÄÄĞ©ĞòÁĞ£¬ÓĞ¶àÉÙĞòÁĞ¡£
-      - ÈçÎª·´Ïò»¥²¹ĞòÁĞ£¬demuxÊ±Ñ¡Ôñ²ÎÊı--p-rev-comp-mapping-barcodes¡£
-   5. quality control    
-      - ÍÆ¼ödeblur
-      - [[http://msystems.asm.org/content/2/2/e00191-16][deblur]]ÊÇ¶Ôµ¥¸öÑù±¾½øĞĞ·ÖÎö£¬ËùÒÔÊÊºÏÕûºÏ´óÁ¿µÄÊı¾İ¡£
-      - Èç¹ûinputÊÇpaired end sequence data£¬ÔÚdeblurÊ±Êµ¼ÊÉÏÖ»»áÓÃµ½ÕıÏòĞòÁĞ£¬¶ø²»»áÓÃµ½·´ÏòĞòÁĞ¡£ÈçÓĞĞèÒªÓÃµ½·´ÏòĞòÁĞ£¬¿É[[https://docs.qiime2.org/2019.4/tutorials/read-joining/][join reads]]¡£
-      - qiime deblur denoise-16S ĞèÒª×¢ÒâµÄ²ÎÊı£º
-        (a) --p-no-hashed-feature-ids ¼´±£ÁôÔ­Ê¼ĞòÁĞ£¨ATGC¸ñÊ½£©¡£
+      - æ ¹æ®barcodeä¿¡æ¯ï¼Œåˆ¤æ–­sequenceæ˜¯æ¥è‡ªå“ªä¸ªæ ·æœ¬ï¼Œä»è€Œå¾—åˆ°æ¯ä¸ªæ ·æœ¬å«æœ‰å“ªäº›åºåˆ—ï¼Œæœ‰å¤šå°‘åºåˆ—ã€‚
+      - å¦‚ä¸ºåå‘äº’è¡¥åºåˆ—ï¼Œdemuxæ—¶é€‰æ‹©å‚æ•°--p-rev-comp-mapping-barcodesã€‚
+   5. quality control
+      - æ¨èdeblur
+      - [[http://msystems.asm.org/content/2/2/e00191-16][deblur]]æ˜¯å¯¹å•ä¸ªæ ·æœ¬è¿›è¡Œåˆ†æï¼Œæ‰€ä»¥é€‚åˆæ•´åˆå¤§é‡çš„æ•°æ®ã€‚
+      - å¦‚æœinputæ˜¯paired end sequence dataï¼Œåœ¨debluræ—¶å®é™…ä¸Šåªä¼šç”¨åˆ°æ­£å‘åºåˆ—ï¼Œè€Œä¸ä¼šç”¨åˆ°åå‘åºåˆ—ã€‚å¦‚æœ‰éœ€è¦ç”¨åˆ°åå‘åºåˆ—ï¼Œå¯[[https://docs.qiime2.org/2019.4/tutorials/read-joining/][join reads]]ã€‚
+      - qiime deblur denoise-16S éœ€è¦æ³¨æ„çš„å‚æ•°ï¼š
+        (a) --p-no-hashed-feature-ids å³ä¿ç•™åŸå§‹åºåˆ—ï¼ˆATGCæ ¼å¼ï¼‰ã€‚
         (b) --p-min-reads
-        (c) ²é¿´deblur.qzv£ºÀíÂÛÉÏdeblurÖ®ºóÊ£ÏÂµÄĞòÁĞÊıÎª(1-error rate)**trim length£¨ÆäÖĞerror rate=0.005£©£»ÒÔ100¸ö¼î»ù³¤¶ÈÎªÀı£¬deblurÖ®ºóÊ£ÏÂµÄĞòÁĞ>(1-0.005)**100²Å±È½ÏÕı³£ 
+        (c) æŸ¥çœ‹deblur.qzvï¼šç†è®ºä¸Šdeblurä¹‹åå‰©ä¸‹çš„åºåˆ—æ•°ä¸º(1-error rate)**trim lengthï¼ˆå…¶ä¸­error rate=0.005ï¼‰ï¼›ä»¥100ä¸ªç¢±åŸºé•¿åº¦ä¸ºä¾‹ï¼Œdeblurä¹‹åå‰©ä¸‹çš„åºåˆ—>(1-0.005)**100æ‰æ¯”è¾ƒæ­£å¸¸
    6. generate a tree
-      - »¹ÓĞÒ»ÖÖ½¨Ê÷µÄ·½·¨ÊÇfragment insertion sepp
+      - è¿˜æœ‰ä¸€ç§å»ºæ ‘çš„æ–¹æ³•æ˜¯fragment insertion sepp
    7. diversity analysis
-      - ²ÎÊı--p-sample-depthµÄÑ¡Ôñ£¬¿É²Î¿¼rarefaction curve£¬Ñ¡ÔñÇúÏßÉÏÉıµ½Æ½Ì¨ÆÚÎªÒË¡£
-      - diversityµÄ·ÖÎöÇ°£¬²»ÒªÍü¼Ç¶Ôtable×örarefy£¡rarefactionµÄÒâÒåÔÚÓÚ£¬µ±³éÑùÉî¶È²»Í¬Ê±£¬rarefactionÊ¹²»Í¬²âĞòÉî¶È¼ä±äµÃÓĞ¿É±ÈĞÔ¡£
+      - å‚æ•°--p-sample-depthçš„é€‰æ‹©ï¼Œå¯å‚è€ƒrarefaction curveï¼Œé€‰æ‹©æ›²çº¿ä¸Šå‡åˆ°å¹³å°æœŸä¸ºå®œã€‚
+      - diversityçš„åˆ†æå‰ï¼Œä¸è¦å¿˜è®°å¯¹tableåšrarefyï¼rarefactionçš„æ„ä¹‰åœ¨äºï¼Œå½“æŠ½æ ·æ·±åº¦ä¸åŒæ—¶ï¼Œrarefactionä½¿ä¸åŒæµ‹åºæ·±åº¦é—´å˜å¾—æœ‰å¯æ¯”æ€§ã€‚
       - diversity:
-        (a) alpha diversity: how many kinds of microbes are thereµ¥¸öÑù±¾ÄÚº¬ÓĞ¶àÉÙÎ¢ÉúÎï
-            - ¿É´ÓÒÔÏÂ¼¸¸ö·½Ãæ±È½Ï£º
-              richness ÖÖÀà£¨ÀıÈç2¸öÑù±¾£¬1ºÅº¬100ÖÖÎ¢ÉúÎï£¬2ºÅº¬150ÖÖÎ¢ÉúÎï£¬ÕâÀïÖ»¿¼ÂÇÖÖÀà£¬²»¿¼ÂÇÊıÁ¿£©
-              evenness ¾ùÔÈ¶È£¨ÀıÈç2¸öÑù±¾£¬1ºÅº¬A3B3C3,2ºÅA1B1C7£¬×ÖÄ¸´ú±í²»Í¬µÄotu£¬Êı×Ö´ú±í¸öÊı£¬ÄÇÃ´Õâ¸öÀı×ÓÖĞ1ºÅotu·Ö²¼ÏÔÈ»±È2ºÅ¸ü¾ùÔÈ£©
-            - ³£ÓÃ¼ÆËãalpha divµÄ·½·¨ÓĞ£º
-              observed_otus (richness) Ö»¼ÆËãÃ¿¸öÑù±¾ÖĞotuµÄÖÖÀà
-              evenness (evenness) ½âÊÍ¼ûÉÏ
-              shannon (richness + evenness) ¼È¿¼ÂÇÖÖÀàÓÖ¿¼ÂÇ¾ùÔÈ¶È
-              simpson (richness + evenness) Í¬ÉÏ
-              faith's phylogenetic distance ³ıÁË»¹¿¼ÂÇÖÖÀàºÍ¾ùÔÈ¶È£¬»¹¿¼ÂÇ½ø»¯¾àÀë
-              ¡­¡­  
-        (b) beta diversity: similarity and dissimilarity between two different samplesÁ½¸öÑù±¾¼äµÄÏàËÆĞÔ»ò²»Í¬
-            - ³£ÓÃ¼ÆËãbeta divµÄ·½·¨ÓĞ£º
+        (a) alpha diversity: how many kinds of microbes are thereå•ä¸ªæ ·æœ¬å†…å«æœ‰å¤šå°‘å¾®ç”Ÿç‰©
+            - å¯ä»ä»¥ä¸‹å‡ ä¸ªæ–¹é¢æ¯”è¾ƒï¼š
+              richness ç§ç±»ï¼ˆä¾‹å¦‚2ä¸ªæ ·æœ¬ï¼Œ1å·å«100ç§å¾®ç”Ÿç‰©ï¼Œ2å·å«150ç§å¾®ç”Ÿç‰©ï¼Œè¿™é‡Œåªè€ƒè™‘ç§ç±»ï¼Œä¸è€ƒè™‘æ•°é‡ï¼‰
+              evenness å‡åŒ€åº¦ï¼ˆä¾‹å¦‚2ä¸ªæ ·æœ¬ï¼Œ1å·å«A3B3C3,2å·A1B1C7ï¼Œå­—æ¯ä»£è¡¨ä¸åŒçš„otuï¼Œæ•°å­—ä»£è¡¨ä¸ªæ•°ï¼Œé‚£ä¹ˆè¿™ä¸ªä¾‹å­ä¸­1å·otuåˆ†å¸ƒæ˜¾ç„¶æ¯”2å·æ›´å‡åŒ€ï¼‰
+            - å¸¸ç”¨è®¡ç®—alpha divçš„æ–¹æ³•æœ‰ï¼š
+              observed_otus (richness) åªè®¡ç®—æ¯ä¸ªæ ·æœ¬ä¸­otuçš„ç§ç±»
+              evenness (evenness) è§£é‡Šè§ä¸Š
+              shannon (richness + evenness) æ—¢è€ƒè™‘ç§ç±»åˆè€ƒè™‘å‡åŒ€åº¦
+              simpson (richness + evenness) åŒä¸Š
+              faith's phylogenetic distance é™¤äº†è¿˜è€ƒè™‘ç§ç±»å’Œå‡åŒ€åº¦ï¼Œè¿˜è€ƒè™‘è¿›åŒ–è·ç¦»
+              â€¦â€¦
+        (b) beta diversity: similarity and dissimilarity between two different samplesä¸¤ä¸ªæ ·æœ¬é—´çš„ç›¸ä¼¼æ€§æˆ–ä¸åŒ
+            - å¸¸ç”¨è®¡ç®—beta divçš„æ–¹æ³•æœ‰ï¼š
               braycurtis
               weighted unifrac
               unweighted unifrac
-              ¡­¡­  
+              â€¦â€¦
    8. taxonomy assignment
-      - Èç¹ûÊÇ515f-818r£¬¿ÉÖ±½ÓÓÃÒÑ¾­trainºÃµÄclassfier½øĞĞtaxonomy assignment£»ÆäËûÇé¿ö¿ÉÓÃÒÑ¾­trainºÃµÄÈ«³¤µÄclassifer£¬»ò¸ù¾İprimerÀ´[[https://docs.qiime2.org/2019.4/tutorials/feature-classifier/][train classfier]]¡£train classifierÊ±×îÖØÒªµÄ²ÎÊıÊÇÌá¹©²âĞòÓÃµÄprimer¡£
-      - qiime feature-classifier classify-sklearn --p-read-orientation [reverse-complement|same]Ä¬ÈÏÊÇ×Ô¶¯¼ì²âÇ°100¸öbases£¬È»ºóÅĞ¶ÏÊÇreverse»¹ÊÇsame£¬Ò»°ãÄ¬ÈÏ²ÎÊı¾ÍĞĞ¡£
-   9. ANCOM£ºµÃµ½²îÒì±í´ïµÄotu
-      - ancomÄ¬ÈÏ½øĞĞ±È½ÏµÄÁ½×éÑù±¾ÊÇÏà»¥¶ÀÁ¢µÄ£¬ÇÒ½öÓĞÉÙÁ¿µÄ£¨ÉÙÓÚ25%£©µÄfeatureÔÚÁ½×é¼ä·¢ÉúÁË¸Ä±ä¡£Èç¹ûÓĞ´óÁ¿ĞòÁĞ¸Ä±ä£¬Ôò²»ÊÊÓÃ¡£
-      - ÁíÒ»ÖÖµÃµ½²îÒì±í´ïotuµÄ·½·¨ÊÇ[[https://docs.qiime2.org/2019.4/tutorials/gneiss/][gneiss]]¡£
+      - å¦‚æœæ˜¯515f-818rï¼Œå¯ç›´æ¥ç”¨å·²ç»trainå¥½çš„classfierè¿›è¡Œtaxonomy assignmentï¼›å…¶ä»–æƒ…å†µå¯ç”¨å·²ç»trainå¥½çš„å…¨é•¿çš„classiferï¼Œæˆ–æ ¹æ®primeræ¥[[https://docs.qiime2.org/2019.4/tutorials/feature-classifier/][train classfier]]ã€‚train classifieræ—¶æœ€é‡è¦çš„å‚æ•°æ˜¯æä¾›æµ‹åºç”¨çš„primerã€‚
+      - qiime feature-classifier classify-sklearn --p-read-orientation [reverse-complement|same]é»˜è®¤æ˜¯è‡ªåŠ¨æ£€æµ‹å‰100ä¸ªbasesï¼Œç„¶ååˆ¤æ–­æ˜¯reverseè¿˜æ˜¯sameï¼Œä¸€èˆ¬é»˜è®¤å‚æ•°å°±è¡Œã€‚
+   9. ANCOMï¼šå¾—åˆ°å·®å¼‚è¡¨è¾¾çš„otu
+      - ancomé»˜è®¤è¿›è¡Œæ¯”è¾ƒçš„ä¸¤ç»„æ ·æœ¬æ˜¯ç›¸äº’ç‹¬ç«‹çš„ï¼Œä¸”ä»…æœ‰å°‘é‡çš„ï¼ˆå°‘äº25%ï¼‰çš„featureåœ¨ä¸¤ç»„é—´å‘ç”Ÿäº†æ”¹å˜ã€‚å¦‚æœæœ‰å¤§é‡åºåˆ—æ”¹å˜ï¼Œåˆ™ä¸é€‚ç”¨ã€‚
+      - å¦ä¸€ç§å¾—åˆ°å·®å¼‚è¡¨è¾¾otuçš„æ–¹æ³•æ˜¯[[https://docs.qiime2.org/2019.4/tutorials/gneiss/][gneiss]]ã€‚
 
 ** import data
-   - tsv, csv, txtÎÄ¼ş¿ÉÒÔ×ª»¯³É[[http://biom-format.org/documentation/biom_conversion.html][The Biological Observation Matrix (BIOM) format]]ÔÙµ¼Èë¡£
+   - tsv, csv, txtæ–‡ä»¶å¯ä»¥è½¬åŒ–æˆ[[http://biom-format.org/documentation/biom_conversion.html][The Biological Observation Matrix (BIOM) format]]å†å¯¼å…¥ã€‚
 
 ** emperor animation
-   - ÔÚqiime2ÖĞ´ò¿ªemperor.qzv£¬ÓÒ²àÀ¸Ñ¡ÔñanimationÁĞ£¬Ñ¡Ôñgradient£¨Ê±¼äÖáÉÏµÄ·Ö×é£©ºÍtrajectory£¨Ñù±¾µÄ·Ö×é£© category£¨ËüÃÇµÄvalue±ØĞëÊÇ·ÖÀàÖµ£¬²»ÄÜÊÇÊıÖµ£©¡£
+   - åœ¨qiime2ä¸­æ‰“å¼€emperor.qzvï¼Œå³ä¾§æ é€‰æ‹©animationåˆ—ï¼Œé€‰æ‹©gradientï¼ˆæ—¶é—´è½´ä¸Šçš„åˆ†ç»„ï¼‰å’Œtrajectoryï¼ˆæ ·æœ¬çš„åˆ†ç»„ï¼‰ categoryï¼ˆå®ƒä»¬çš„valueå¿…é¡»æ˜¯åˆ†ç±»å€¼ï¼Œä¸èƒ½æ˜¯æ•°å€¼ï¼‰ã€‚
 
 ** tips
-   + ²é¿´tutorialÊ±Ğè×¢Òâµ±Ç°°æ±¾£¬Ó¦Óë°²×°µÄ°æ±¾Ïà¶ÔÓ¦£¨tutorialÒ³Ãæ×î×óÓĞ°æ±¾ĞÅÏ¢£©£¬·ñÔòÓĞĞ©´úÂëÊ±¿ÉÄÜ»á³öÏÖ±¨´í¡£
-   + ÃüÃû²»ÒªÓĞ¿Õ¸ñºÍÖĞÎÄ£¬²»ÒªÈ¡Ä£ÀâÁ½¿ÉµÄÃû×Ö£¬Ê±¼ä¾ÃÁË¿ÉÄÜ×Ô¼º¶¼²»¼ÇµÃÕâ¸öÎÄ¼şÊÇÊ²Ã´¡£Ãû×Ö³¤Ò»µã¶¼Ã»¹ØÏµ¡£
-   + Ô­ÔòÉÏ²»²úÉúÖØ¸´ÎÄ¼ş£¬¿É´´½¨hard/symbolic link¡£
-   + Åöµ½½â¾ö²»ÁËµÄÎÊÌâ¿ÉÔÚforumÉÏÕÒÊÇ·ñÓĞÍ¬ÑùµÄÎÊÌâ£¬Í¨³£¿ÉÒÔÕÒµ½¡£»ò¿ÉÒÔ×Ô¼ºÔÚÉÏÃæÌáÎÊ¡£
-   + ×öÏîÄ¿Ê±£¬Ò»¸öÏîÄ¿´´½¨Ò»¸öÎÄ¼ş¼Ğ£¬Óë¸ÃÏîÄ¿Ïà¹ØµÄÎÄ¼ş¶¼±£´æÔÚ¸ÃÄ¿Â¼ÏÂ¡£
-   + ËùÓĞcommand line¶¼Òª×öºÃ¼ÇÂ¼£¬ÒªÖªµÀÃ¿Ò»¸öÎÄ¼şÊÇÈçºÎÉú³ÉµÄ£¬³öÏÖÎÊÌâµÄÊ±ºòÄÜ¹»×·¸ùËİÔ´¡£Í¬Ê±£¬Òª¼ÇÂ¼ºÃqiime2µÄ°æ±¾ĞÅÏ¢¡£
-   + ÖØÒªµÄÎÄ±¾ÎÄ¼şÓÃgit×översion control¡£
-   + Í¼Æ¬±£´æ¸ñÊ½Îªpdf»òÕßsvg£¨Ê¸Á¿Í¼£©¡£
-   + ²»ÒªÇáÒ×¸²¸Çraw data
+   + æŸ¥çœ‹tutorialæ—¶éœ€æ³¨æ„å½“å‰ç‰ˆæœ¬ï¼Œåº”ä¸å®‰è£…çš„ç‰ˆæœ¬ç›¸å¯¹åº”ï¼ˆtutorialé¡µé¢æœ€å·¦æœ‰ç‰ˆæœ¬ä¿¡æ¯ï¼‰ï¼Œå¦åˆ™æœ‰äº›ä»£ç æ—¶å¯èƒ½ä¼šå‡ºç°æŠ¥é”™ã€‚
+   + å‘½åä¸è¦æœ‰ç©ºæ ¼å’Œä¸­æ–‡ï¼Œä¸è¦å–æ¨¡æ£±ä¸¤å¯çš„åå­—ï¼Œæ—¶é—´ä¹…äº†å¯èƒ½è‡ªå·±éƒ½ä¸è®°å¾—è¿™ä¸ªæ–‡ä»¶æ˜¯ä»€ä¹ˆã€‚åå­—é•¿ä¸€ç‚¹éƒ½æ²¡å…³ç³»ã€‚
+   + åŸåˆ™ä¸Šä¸äº§ç”Ÿé‡å¤æ–‡ä»¶ï¼Œå¯åˆ›å»ºhard/symbolic linkã€‚
+   + ç¢°åˆ°è§£å†³ä¸äº†çš„é—®é¢˜å¯åœ¨forumä¸Šæ‰¾æ˜¯å¦æœ‰åŒæ ·çš„é—®é¢˜ï¼Œé€šå¸¸å¯ä»¥æ‰¾åˆ°ã€‚æˆ–å¯ä»¥è‡ªå·±åœ¨ä¸Šé¢æé—®ã€‚
+   + åšé¡¹ç›®æ—¶ï¼Œä¸€ä¸ªé¡¹ç›®åˆ›å»ºä¸€ä¸ªæ–‡ä»¶å¤¹ï¼Œä¸è¯¥é¡¹ç›®ç›¸å…³çš„æ–‡ä»¶éƒ½ä¿å­˜åœ¨è¯¥ç›®å½•ä¸‹ã€‚
+   + æ‰€æœ‰command lineéƒ½è¦åšå¥½è®°å½•ï¼Œè¦çŸ¥é“æ¯ä¸€ä¸ªæ–‡ä»¶æ˜¯å¦‚ä½•ç”Ÿæˆçš„ï¼Œå‡ºç°é—®é¢˜çš„æ—¶å€™èƒ½å¤Ÿè¿½æ ¹æº¯æºã€‚åŒæ—¶ï¼Œè¦è®°å½•å¥½qiime2çš„ç‰ˆæœ¬ä¿¡æ¯ã€‚
+   + é‡è¦çš„æ–‡æœ¬æ–‡ä»¶ç”¨gitåšversion controlã€‚
+   + å›¾ç‰‡ä¿å­˜æ ¼å¼ä¸ºpdfæˆ–è€…svgï¼ˆçŸ¢é‡å›¾ï¼‰ã€‚
+   + ä¸è¦è½»æ˜“è¦†ç›–raw data
 
 * Data analysis
 ** Data analysis
-   - ¾­¹ıÑ§Ï°ÒÔÉÏ²¿·Ö£¬ÓĞÁË»ù´¡¸ÅÄîÖ®ºó£¬¸ú×ÅÕâ¸ö[[https://github.com/cuttlefishh/python-for-data-analysis][ÍøÖ·]]½øĞĞÊı¾İ·ÖÎö¿Î³ÌµÄÑ§Ï°
-   - ²Î¿¼ÓÃÊé¡°Python for Data Analysis¡±£¬Éæ¼°pandas£¬numpy£¬matplotlib£¬seaborn...
+   - ç»è¿‡å­¦ä¹ ä»¥ä¸Šéƒ¨åˆ†ï¼Œæœ‰äº†åŸºç¡€æ¦‚å¿µä¹‹åï¼Œè·Ÿç€è¿™ä¸ª[[https://github.com/cuttlefishh/python-for-data-analysis][ç½‘å€]]è¿›è¡Œæ•°æ®åˆ†æè¯¾ç¨‹çš„å­¦ä¹ 
+   - å‚è€ƒç”¨ä¹¦â€œPython for Data Analysisâ€ï¼Œæ¶‰åŠpandasï¼Œnumpyï¼Œmatplotlibï¼Œseaborn...
 
 ** calour
-   - ÊìÏ¤tutorial
-   - ÓÃcalour filter data·Ç³£·½±ã(filter_by_metadata, filter_prevalence...)
-   - ÔÚJupyterlabÖĞÎŞ·¨·Å´ó²é¿´ÈÈÍ¼£¬Ğèlaunch classic notebook£¬%matplotlib notebook£¨²»ÒªÓÃinline£©
+   - ç†Ÿæ‚‰tutorial
+   - ç”¨calour filter dataéå¸¸æ–¹ä¾¿(filter_by_metadata, filter_prevalence...)
+   - åœ¨Jupyterlabä¸­æ— æ³•æ”¾å¤§æŸ¥çœ‹çƒ­å›¾ï¼Œéœ€launch classic notebookï¼Œ%matplotlib notebookï¼ˆä¸è¦ç”¨inlineï¼‰
 
 ** matplotlib/seaborn
-   - turorial£º [[https://www.labri.fr/perso/nrougier/teaching/matplotlib/][matplotlib-tutorial]]
-   - [[https://matplotlib.org/gallery/misc/multipage_pdf.html][mutipage_pdf]] Í¬Ê±±£´æ¶àÕÅÍ¼Æ¬Îªpdf¸ñÊ½
+   - turorialï¼š [[https://www.labri.fr/perso/nrougier/teaching/matplotlib/][matplotlib-tutorial]]
+   - [[https://matplotlib.org/gallery/misc/multipage_pdf.html][mutipage_pdf]] åŒæ—¶ä¿å­˜å¤šå¼ å›¾ç‰‡ä¸ºpdfæ ¼å¼
 
 ** jupyter notebook/jupyterlab & ipython
    - Don't forget we can look at what any function does by using %psource
-   - Don¡®t hardcode¡£Í¬Ò»Ì×´úÂëĞ´³Éfunctionºóµ÷ÓÃ¡£Ğ´function×¢ÒâÂß¼­ĞÔ¡£
+   - Donâ€˜t hardcodeã€‚åŒä¸€å¥—ä»£ç å†™æˆfunctionåè°ƒç”¨ã€‚å†™functionæ³¨æ„é€»è¾‘æ€§ã€‚
 
 ** git
    - Github
    https://guides.github.com/activities/hello-world/
    https://github.com/cuttlefishh/python-for-data-analysis/blob/master/lessons/lesson20.md
    - Git command
-   https://www.youtube.com/watch?v=HVsySz-h9r4 £¨ÊÓÆµ½éÉÜ£©
-   - ÖØÒªµÄÎÄ¼şÓÃgit×översion control£¬ÓÈÆäÊÇ×Ô¼ºĞ´µÄÎÄ±¾ÎÄ¼ş¡£ÁË½â¼òµ¥µÄgit addºÍcommitµÈ¡£
+   https://www.youtube.com/watch?v=HVsySz-h9r4 ï¼ˆè§†é¢‘ä»‹ç»ï¼‰
+   - é‡è¦çš„æ–‡ä»¶ç”¨gitåšversion controlï¼Œå°¤å…¶æ˜¯è‡ªå·±å†™çš„æ–‡æœ¬æ–‡ä»¶ã€‚äº†è§£ç®€å•çš„git addå’Œcommitç­‰ã€‚
 
-* ÍÆ¼öÔÄ¶Á
+* æ¨èé˜…è¯»
 ** tips
-   + ¿´ÎÄÏ×Ê±£¬abstract->fig->discussion
-   + ¿´ÎÄÏ×Ê±Ò²ÒªÁË½â×÷Õß£¬Í¨¹ı×÷ÕßÈ¥ÁË½â±ğÈËÊµÑéÊÒµÄÑĞ¾¿·½Ïò£¬¿ÉÒÔÑ§Ï°±ğÈËÊµÑéÉÏµÄË¼Â·/ÊµÑéÉè¼Æ/ÑÓĞøĞÔµÈ¡£
-   + ´ø×ÅÅúÅĞĞÔË¼Î¬ÔÄ¶Áwhat?why?and how? ÎªÊ²Ã´Òª×öÕâ¸öÊµÑé£¬Êı¾İÊÇ·ñÖ§³Ö½áÂÛ£¬Í³¼Æ·½·¨ÊÇ·ñÕıÈ·£¬Äã½ÓÏÂÀ´»áÔõÃ´×öµÈ¡£
-   + ÔÚ×Ô¼ºÑĞ¾¿·½ÏòÉÏ½øĞĞÔÄ¶Á£¬ĞÎ³ÉÖªÊ¶¼Ü¹¹¡£Ê²Ã´ÊÇÒÑÖªµÄ£¬Ê²Ã´µÄÎ´ÖªµÄ£¬Ìá³öÎÊÌâ£¬¶àË¼¿¼ÈçºÎ½â¾öÎÊÌâ¡£
-   + ÎÄÏ×»ã±¨Ñ¡ÔñÓë×Ô¼ºÑĞ¾¿Ö±½ÓÏà¹ØµÄÎÄÕÂ£¬ÓĞÖúÓÚ×Ô¼ºÎÄÏ×ÔÄ¶ÁµÄÁ¬ĞøĞÔ¡£
-   + ÊµÑé»ã±¨ÓÃ1Ì×PPT£¬Ã¿´ÎÔÚÖ®Ç°µÄ»ù´¡ÉÏ»ıÀÛÍêÉÆ¡£°üÀ¨±³¾°½éÉÜ£¬Ìá³öÎÊÌâ£¬ÈçºÎ½â¾ö£¬ÓÃÊ²Ã´·½·¨½â¾ö£¬½á¹û£¬ÏÂ½×¶ÎµÄ¼Æ»®°²ÅÅ¡£
+   + çœ‹æ–‡çŒ®æ—¶ï¼Œabstract->fig->discussion
+   + çœ‹æ–‡çŒ®æ—¶ä¹Ÿè¦äº†è§£ä½œè€…ï¼Œé€šè¿‡ä½œè€…å»äº†è§£åˆ«äººå®éªŒå®¤çš„ç ”ç©¶æ–¹å‘ï¼Œå¯ä»¥å­¦ä¹ åˆ«äººå®éªŒä¸Šçš„æ€è·¯/å®éªŒè®¾è®¡/å»¶ç»­æ€§ç­‰ã€‚
+   + å¸¦ç€æ‰¹åˆ¤æ€§æ€ç»´é˜…è¯»what?why?and how? ä¸ºä»€ä¹ˆè¦åšè¿™ä¸ªå®éªŒï¼Œæ•°æ®æ˜¯å¦æ”¯æŒç»“è®ºï¼Œç»Ÿè®¡æ–¹æ³•æ˜¯å¦æ­£ç¡®ï¼Œä½ æ¥ä¸‹æ¥ä¼šæ€ä¹ˆåšç­‰ã€‚
+   + åœ¨è‡ªå·±ç ”ç©¶æ–¹å‘ä¸Šè¿›è¡Œé˜…è¯»ï¼Œå½¢æˆçŸ¥è¯†æ¶æ„ã€‚ä»€ä¹ˆæ˜¯å·²çŸ¥çš„ï¼Œä»€ä¹ˆçš„æœªçŸ¥çš„ï¼Œæå‡ºé—®é¢˜ï¼Œå¤šæ€è€ƒå¦‚ä½•è§£å†³é—®é¢˜ã€‚
+   + æ–‡çŒ®æ±‡æŠ¥é€‰æ‹©ä¸è‡ªå·±ç ”ç©¶ç›´æ¥ç›¸å…³çš„æ–‡ç« ï¼Œæœ‰åŠ©äºè‡ªå·±æ–‡çŒ®é˜…è¯»çš„è¿ç»­æ€§ã€‚
+   + å®éªŒæ±‡æŠ¥ç”¨1å¥—PPTï¼Œæ¯æ¬¡åœ¨ä¹‹å‰çš„åŸºç¡€ä¸Šç§¯ç´¯å®Œå–„ã€‚åŒ…æ‹¬èƒŒæ™¯ä»‹ç»ï¼Œæå‡ºé—®é¢˜ï¼Œå¦‚ä½•è§£å†³ï¼Œç”¨ä»€ä¹ˆæ–¹æ³•è§£å†³ï¼Œç»“æœï¼Œä¸‹é˜¶æ®µçš„è®¡åˆ’å®‰æ’ã€‚
 
-** ÆÚ¿¯
-   ÍÆ¼öÔÄ¶ÁÆÚ¿¯£ºnature, science, cell, PNAS, nature communication, nature microbiology, microbiome, cell host & microbes, ISME journal, gut, Gastroenterology, Genome Research, mbio, msystems
+** æœŸåˆŠ
+   æ¨èé˜…è¯»æœŸåˆŠï¼šnature, science, cell, PNAS, nature communication, nature microbiology, microbiome, cell host & microbes, ISME journal, gut, Gastroenterology, Genome Research, mbio, msystems
 
-** ×ÛÊö
-   Î¢ÉúÎï×éÑ§½éÉÜ£º
+** ç»¼è¿°
+   å¾®ç”Ÿç‰©ç»„å­¦ä»‹ç»ï¼š
    Diversity, stability and resilience of the human gut microbiota
    You are what you eat: diet, health and the gut microbiota
    Beat practices for analysing microbimes
-  
-** Êé¼®
-   - ¡°I contain multitudes¡± by Ed Yong
-   - ¡¶ÏûÊ§µÄÎ¢ÉúÎï¡·
+
+** ä¹¦ç±
+   - â€œI contain multitudesâ€ by Ed Yong
+   - ã€Šæ¶ˆå¤±çš„å¾®ç”Ÿç‰©ã€‹
    - [[http://library.open.oregonstate.edu/computationalbiology/][A primer for computational biology]]
