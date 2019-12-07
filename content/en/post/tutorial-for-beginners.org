@@ -1,7 +1,7 @@
 #+TITLE: Guide for beginners to bioinformatics
 #+LASTMOD: 2019-12-07
-#+AUTHORS: Yichen Hu
-#+TAGS[]: tutorials
+#+AUTHOR: huyichen
+#+TAGS[]: guide
 
 * linux
 ** 推荐书籍
