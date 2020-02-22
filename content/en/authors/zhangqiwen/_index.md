@@ -28,7 +28,7 @@ interests:
 education:
   courses:
   - course: BSc in Food Quality and Safety
-    institution:Hubei University of Traditional Chinese Medicine
+    institution: Hubei University of Traditional Chinese Medicine
     year: 2019
 
 # Social/Academic Networking
