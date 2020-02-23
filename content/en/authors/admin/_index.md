@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Zhenjiang Zech Xu
+widget: 1
 
 # Username (this should match the folder name)
 authors:

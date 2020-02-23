@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Ming Li
+widget: 20
 
 # Username (this should match the folder name)
 authors:

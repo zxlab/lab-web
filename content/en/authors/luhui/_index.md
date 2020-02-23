@@ -1,6 +1,7 @@
 ---
 # Display name
 name: Hui Lu
+widget: 2
 
 # Username (this should match the folder name)
 authors:
