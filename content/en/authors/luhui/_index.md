@@ -2,7 +2,7 @@
 # Display name
 name: Hui Lu
 
-weight: 2
+weight: 3
 
 # Username (this should match the folder name)
 authors:
