@@ -1,6 +1,8 @@
 ---
 name: We Want You
 
+weight: 0
+
 # Username (this should match the folder name)
 authors:
 - we-want-you
