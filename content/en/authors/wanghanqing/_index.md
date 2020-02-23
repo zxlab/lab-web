@@ -2,6 +2,8 @@
 # Display name
 name: Charles Hantsing Wang
 
+weight: 12
+
 # Username (this should match the folder name)
 authors:
 - wanghanqing

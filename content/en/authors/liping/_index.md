@@ -2,6 +2,8 @@
 # Display name
 name: Ping Li
 
+weight: 11
+
 # Username (this should match the folder name)
 authors:
 - liping

@@ -2,6 +2,8 @@
 # Display name
 name: Yan Li
 
+weight: 22
+
 # Username (this should match the folder name)
 authors:
 - liyan

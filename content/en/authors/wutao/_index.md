@@ -2,6 +2,8 @@
 # Display name
 name: Tao Wu
 
+weight: 21
+
 # Username (this should match the folder name)
 authors:
 - wutao

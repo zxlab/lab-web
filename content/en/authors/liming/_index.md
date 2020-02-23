@@ -1,7 +1,8 @@
 ---
 # Display name
 name: Ming Li
-widget: 20
+
+weight: 20
 
 # Username (this should match the folder name)
 authors:

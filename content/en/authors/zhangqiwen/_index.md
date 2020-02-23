@@ -2,6 +2,8 @@
 # Display name
 name: Qiwen Zhang
 
+weight: 23
+
 # Username (this should match the folder name)
 authors:
 - zhangqiwen

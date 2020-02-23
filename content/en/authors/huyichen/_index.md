@@ -1,7 +1,8 @@
 ---
 # Display name
 name: Yichen Hu
-widget: 10
+
+weight: 10
 
 # Username (this should match the folder name)
 authors:
