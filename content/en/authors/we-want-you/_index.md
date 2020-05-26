@@ -27,21 +27,21 @@ Trainees in the lab will receive quality mentorship and training to help achieve
 1. Ph.D. in computer science, biostatistics, bioinformatics, microbiology, zebrafish, or related fields.
 2. Experience in analyzing microbiome data sets is preferred.
 3. Demonstrated excellence in research (at least 1 high-quality publications in reputable journals).
-4. Good communication skills in English.
+4. Good oral and written communication skills in English.
 
 ## DATA ANALYST
 ### Requirements:
-1. Bachelor or Master degree in computer science, biostatistics, bioinformatics or related fields.
+1. Bachelor or Master degree in computer science, statistics, epidemiology, bioinformatics or related fields.
 2. Strong computational and programming skills (R or Python).
 3. Experience on analyzing microbiome data sets is preferred.
-4. Good communication skills in English.
+4. Good oral and written communication skills in English.
 
 ## SOFTWARE ENGINEER
 ### Requirements:
 1. Bachelor or Master degree in computer science, bioinformatics or related fields.
-2. Familiar with C++, javascript, and (or) Python.
+2. Familiar with C++, javascript, and/or Python.
 3. Experience in developing software packges or web-based servers is highly preferred.
-4. Good communication skills in English.
+4. Good oral and written communication skills in English.
 
 ## UNDERGRADUATE or GRADUATE STUDENT
 We encourage students with strong interest or background to contact us and discuss about potential opportunities. Please send your inquiries to Zhenjiang Xu via email.
