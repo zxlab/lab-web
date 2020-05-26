@@ -2,6 +2,8 @@
 # Display name
 name: Zhenjiang Zech Xu
 
+weight: 2
+
 # Username (this should match the folder name)
 authors:
 - admin

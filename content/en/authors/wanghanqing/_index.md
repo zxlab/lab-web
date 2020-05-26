@@ -1,12 +1,12 @@
 ---
 # Display name
-name: Yichen Hu
+name: Charles Hantsing Wang
 
-weight: 10
+weight: 12
 
 # Username (this should match the folder name)
 authors:
-- huyichen
+- wanghanqing
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,21 +20,23 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include human microbiome, machine learning and oral microbiota dynamics.
+bio: My research interests include gut microbiome, zebrafish disease models, synthetic biology and neurogenesis.
 
 interests:
-- human microbiome
-- machine learning
-- oral microbiota dynamics
+- Gut Microbiome
+- Zebrafish Disease Models
+- Synthetic Biology
+- Neurogenesis
 
 education:
   courses:
-  - course: MSc in Biochemistry and Molecular Biology
+  - course: MSc in Developmental Biology
     institution: Nanchang University
-    year: 2016
-  - course: BSc in Biological Engineering
-    institution: Nanchang University
-    year: 2013
+    year: 2019
+  - course: BSc in Ecology
+    institution: Central South University of Forestry and Technology
+    year: 2014
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -43,7 +45,10 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:hychennnn@gmail.com"
+  link: "mailto:cwang.zebra@gmail.com"
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?hl=en&user=_Cu1RkoAAAAJ
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/zech_xu
@@ -69,4 +74,5 @@ user_groups:
 
 ---
 
-Yichen Hu, a PhD student, she is interested in using statistical methods to elucidate the basic principles of interaction within the microbiota and between the microtiota and their hosts. Her current project focuses on the dynamics of oral microbiota.
+Charles Hantsing Wang, a PhD student, interested in how microbes interact with each other and the their host.
+
