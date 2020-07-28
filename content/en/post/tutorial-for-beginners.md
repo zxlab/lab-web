@@ -12,8 +12,7 @@ featured: false
 draft: false
 ---
 
-
-
+<br/><br/>
 以下为开启生物信息学习的简易入门教程及小贴士，仅供参考。
 
 # **LINUX**
@@ -26,6 +25,8 @@ draft: false
 2. “Learn Linux the Hardway” by Shaw
 3. [中文教程推荐《鸟哥的Linux私房菜》](http://cn.linux.vbird.org/)
 
+<br/>
+
 # **PYTHON**
 
 ## 推荐书籍
@@ -37,6 +38,8 @@ draft: false
 3.  “Learning Python, 5th Edition” by Mark Lutz 比较适合系统学习（推荐）
 4.  “Fluent Python” 进阶学习
 5.  [Python 100 days](https://github.com/jackfrued/Python-100-Days)
+
+<br/>
 
 # **[QIIME2](https://qiime2.org/)**
 
@@ -116,6 +119,8 @@ draft: false
 -   图片保存格式为pdf或者svg（矢量图）。
 -   不要轻易覆盖raw data
 
+<br/>
+
 # **课程推荐**
 
 ## Data Analysis
@@ -127,7 +132,7 @@ draft: false
 
 - [Gut Check: Exploring Your Microbiome](https://www.coursera.org/learn/microbiome)
 
-
+<br/>
 
 # **阅读推荐**
 
@@ -149,6 +154,8 @@ draft: false
 -   "I contain multitudes" by Ed Yong
 -   "Missing Microbes" by Martin J. Blaser
 -   [A primer for computational biology](http://library.open.oregonstate.edu/computationalbiology/)
+
+<br/>
 
 # **其他工具**
 
