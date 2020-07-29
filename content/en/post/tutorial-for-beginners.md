@@ -21,7 +21,7 @@ draft: false
 
 阅读原则：第一遍阅读快速浏览，熟悉命令行。大概记住常用命令的使用，实际使用时知道应该调用哪个命令。
 
-1. “The Linux Command Line” by [William Shotts](http://linuxcommand.org/tlcl.php)
+1. [“The Linux Command Line” by William Shotts](http://linuxcommand.org/tlcl.php)
 2. “Learn Linux the Hardway” by Shaw
 3. [中文教程推荐《鸟哥的Linux私房菜》](http://cn.linux.vbird.org/)
 
@@ -119,7 +119,7 @@ draft: false
 -   经过学习以上部分，有了基础概念之后，跟着这个[网址](https://github.com/cuttlefishh/python-for-data-analysis)进行数据分析课程的学习
 -   参考用书“Python for Data Analysis”，涉及pandas，numpy，matplotlib，seaborn&#x2026;
 
-## Microbime
+## Microbiome
 
 - [Gut Check: Exploring Your Microbiome](https://www.coursera.org/learn/microbiome)
 
