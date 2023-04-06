@@ -38,7 +38,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T11:30:32.452410Z'
+publishDate: '2023-04-06T12:04:11.403910Z'
 publication_types:
 - '2'
 abstract: The vitamin D receptor is highly expressed in the gastrointestinal tract

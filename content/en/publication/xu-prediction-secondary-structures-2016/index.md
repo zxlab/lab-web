@@ -28,7 +28,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T11:30:33.863283Z'
+publishDate: '2023-04-06T12:04:12.993537Z'
 publication_types:
 - '6'
 abstract: RNA structure is conserved by evolution to a greater extent than sequence.

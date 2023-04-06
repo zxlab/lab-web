@@ -28,7 +28,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T11:30:33.696813Z'
+publishDate: '2023-04-06T12:04:12.784390Z'
 publication_types:
 - '6'
 abstract: Experimental probing data can be used to improve the accuracy of RNA secondary

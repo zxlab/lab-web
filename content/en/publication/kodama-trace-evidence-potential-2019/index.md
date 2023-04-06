@@ -35,7 +35,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T11:30:30.307190Z'
+publishDate: '2023-04-06T12:04:09.341847Z'
 publication_types:
 - '2'
 abstract: Abstract Microbes can be used effectively as trace evidence, at least in

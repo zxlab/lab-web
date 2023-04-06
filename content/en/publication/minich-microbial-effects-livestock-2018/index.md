@@ -37,7 +37,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T11:30:31.597394Z'
+publishDate: '2023-04-06T12:04:10.564214Z'
 publication_types:
 - '2'
 abstract: The majority of seafood is farmed, with most finfish coming from freshwater
