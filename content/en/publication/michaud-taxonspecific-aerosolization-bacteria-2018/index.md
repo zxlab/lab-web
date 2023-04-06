@@ -42,7 +42,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T10:33:49.275804Z'
+publishDate: '2023-04-06T11:30:31.516672Z'
 publication_types:
 - '2'
 abstract: Factors controlling the transfer of microbes from the ocean to the atmosphere

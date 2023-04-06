@@ -41,7 +41,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T10:33:47.258638Z'
+publishDate: '2023-04-06T11:30:29.971644Z'
 publication_types:
 - '2'
 abstract: Evidence suggests that gut microbiome changes upon hypobaric hypoxia exposure;

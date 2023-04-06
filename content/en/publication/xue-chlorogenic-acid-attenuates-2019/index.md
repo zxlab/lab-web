@@ -35,7 +35,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T10:33:52.173500Z'
+publishDate: '2023-04-06T11:30:33.614253Z'
 publication_types:
 - '2'
 abstract: 'Chronic exposure to cadmium (Cd) causes remarkable damage to the liver

@@ -40,7 +40,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T10:33:51.825914Z'
+publishDate: '2023-04-06T11:30:33.338073Z'
 publication_types:
 - '2'
 abstract: Alteration of the gut microbiota may contribute to the development of inflammatory

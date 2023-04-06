@@ -34,7 +34,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T10:33:50.217400Z'
+publishDate: '2023-04-06T11:30:32.200468Z'
 publication_types:
 - '2'
 abstract: Immediate freezing at -20° C or below has been considered the gold standard

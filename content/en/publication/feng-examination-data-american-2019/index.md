@@ -41,7 +41,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T10:33:46.475505Z'
+publishDate: '2023-04-06T11:30:29.295146Z'
 publication_types:
 - '2'
 abstract: Bifidobacterium and Lactobacillus are beneficial for human health, and many

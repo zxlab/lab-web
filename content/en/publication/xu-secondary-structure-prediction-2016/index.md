@@ -28,7 +28,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T10:33:52.783857Z'
+publishDate: '2023-04-06T11:30:33.942009Z'
 publication_types:
 - '6'
 abstract: RNA secondary structure is often predicted using folding thermodynamics.
