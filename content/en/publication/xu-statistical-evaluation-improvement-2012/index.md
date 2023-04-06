@@ -29,7 +29,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T12:04:13.238776Z'
+publishDate: '2023-04-06T12:05:15.754868Z'
 publication_types:
 - '2'
 abstract: With discovery of diverse roles for RNA, its centrality in cellular functions

@@ -32,7 +32,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T12:04:13.449564Z'
+publishDate: '2023-04-06T12:05:15.924163Z'
 publication_types:
 - '2'
 abstract: $β$-glucan is a prebiotic well known for its beneficial outcomes on sea

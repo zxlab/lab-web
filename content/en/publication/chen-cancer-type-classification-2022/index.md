@@ -53,7 +53,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T12:04:08.089227Z'
+publishDate: '2023-04-06T12:05:10.172425Z'
 publication_types:
 - '2'
 abstract: The utility of cell-free nucleic acids in monitoring cancer has been recognized

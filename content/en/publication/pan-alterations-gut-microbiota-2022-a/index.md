@@ -48,7 +48,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T12:04:10.816699Z'
+publishDate: '2023-04-06T12:05:13.003484Z'
 publication_types:
 - '2'
 abstract: The gut microbiota is involved in host responses to high altitude. However,

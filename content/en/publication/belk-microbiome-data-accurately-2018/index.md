@@ -34,7 +34,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T12:04:07.570880Z'
+publishDate: '2023-04-06T12:05:09.713030Z'
 publication_types:
 - '2'
 abstract: Death investigations often include an effort to establish the postmortem

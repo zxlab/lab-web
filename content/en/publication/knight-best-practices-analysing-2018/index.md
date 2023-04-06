@@ -50,7 +50,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T12:04:09.255764Z'
+publishDate: '2023-04-06T12:05:11.385011Z'
 publication_types:
 - '2'
 abstract: Complex microbial communities shape the dynamics of various environments.

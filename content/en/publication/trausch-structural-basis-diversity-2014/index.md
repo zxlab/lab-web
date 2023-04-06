@@ -33,7 +33,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T12:04:11.609978Z'
+publishDate: '2023-04-06T12:05:14.037838Z'
 publication_types:
 - '2'
 abstract: In bacteria, sulfur metabolism is regulated in part by seven known families

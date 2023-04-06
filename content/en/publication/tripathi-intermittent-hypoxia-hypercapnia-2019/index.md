@@ -41,7 +41,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2023-04-06T12:04:11.708274Z'
+publishDate: '2023-04-06T12:05:14.141124Z'
 publication_types:
 - '2'
 abstract: Studying perturbations in the gut ecosystem using animal models of disease
